@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = %q{ruby-termios}
+  s.name = %q{termios}
   s.version = "0.9.6"
   s.date = %q{2009-08-28}
 
@@ -16,7 +16,7 @@ E
   s.bindir = false
   s.has_rdoc = true
   s.homepage = %q{http://arika.org/ruby/termios}
-  s.rdoc_options = ["--title", "ruby-termios documentation", "--charset", "utf-8", "--opname", "index.html", "--line-numbers", "--main", "README", "--inline-source", "--exclude", "^(examples|extras)/"]
+  s.rdoc_options = ["--title", "termios documentation", "--charset", "utf-8", "--opname", "index.html", "--line-numbers", "--main", "README", "--inline-source", "--exclude", "^(examples|extras)/"]
   s.require_paths = ["lib", "."]
   s.rubyforge_project = %q{termios}
   s.summary = %q{a simple wrapper of termios(3)}
